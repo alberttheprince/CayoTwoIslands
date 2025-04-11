@@ -133,13 +133,12 @@ Set it to false and request your IPLs the correct way.
 
 Just copy and paste mine, or the Cayo Perico Shops collision file **(h4_islandairstrip_12)** into the ybn folder. 
 
----------------------------------------
+
 
 # Frameworks & Other Cayo Perico Resources / Scripts Support:
 
 I don't use any fancy frameworks or any other Cayo Perico related resources, so you'll have to troubleshoot it on your **own.** These are simply ymap, ytyp and ybn files.
 
----------------------------------------
 
 
 
@@ -196,4 +195,4 @@ Read about it [here](https://forum.cfx.re/t/cfx-re-client-update-fivem-redm-for-
 
 # Credits:
 
-- This resource was originally created by [Tay NcKenzie](https://github.com/TayMcKenzieNZ)
+- This resource was originally created by [Tay McKenzie](https://github.com/TayMcKenzieNZ)
