@@ -81,9 +81,6 @@ Do you need a version compatible with [North Yankton](https://github.com/albertt
 
 - NPC Peds -- can be removed or commented out in `peds_config.lua`
 
-# Configuring PMMS 
-
-**Please see [Kibook's PMMS](https://github.com/kibook/pmms) for installation instructions and troubleshooting**
 
 # Installation ⚙️: 
 
@@ -94,6 +91,10 @@ Do you need a version compatible with [North Yankton](https://github.com/albertt
 * add `start CayoTwoIslands` to your server.cfg
 
 * Restart server or type `/start CayoTwoIslands` into the chat window 
+
+# Configuring PMMS 
+
+**Please see [Kibook's PMMS](https://github.com/kibook/pmms) for installation instructions and troubleshooting**
 
 
 # Static Emitters: 🎶
