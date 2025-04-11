@@ -1,4 +1,7 @@
-# CayoTwoIslands 🏝️
+![image](https://github.com/user-attachments/assets/8a1cbfa3-fbb6-4e84-bc29-6831ed8f97ed)
+
+
+# CayoTwoIslands: 🏝️
 
 Designed for RP and exploration in mind, CayoTwoIslands does everything [Cayo Improvements](https://github.com/TayMcKenzieNZ/CayoImprovements) does, except one important and highly requested feature; no more concealment!
 
@@ -6,14 +9,16 @@ CayoTwoIslands enhances the island by removing obstructing collisions and adding
 
 It is to work alongside [[pmms](https://github.com/kibook/pmms)] for playing content on the TV screens, as well as [[fivem-scenarios](https://github.com/kibook/fivem-scenarios)] for interacting with scenarios around the world, (like seats and scenarios) including Cayo Perico.
 
+Do you need a version compatible with [North Yankton](https://github.com/alberttheprince/NorthYankton/)? Check out the North Yankton Compatible version [here](https://github.com/alberttheprince/CayoTwoIslands-YanktonCompatible).
 
-# **REQUIREMENTS** ⚙️
+
+# **REQUIREMENTS**: ⚙️
 
 - **Latest recommended artifacts** [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) **or** [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 
 -  [Gamebuild 2189 or higher](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
 
-- [Poodle Multimedia Script](https://github.com/kibook/pmms) **for the TV at the Beach Party.** 
+- Optional: [Poodle Multimedia Script](https://github.com/kibook/pmms) **for the TV at the Beach Party.** 
 
 > By default, PMMS is set to admin only 
 > access, you can change this in the 
@@ -21,32 +26,10 @@ It is to work alongside [[pmms](https://github.com/kibook/pmms)] for playing con
 > would prefer all players can access it.
 >
 > you will need to read pmms installation 
-> instructions on the GitHub repository, and if you
-> can't figure it out, open an issue. 
->
-> I'm **not** here to hold your hand.
+> instructions on the GitHub repository.
 
 
-# Configuring PMMS 
-
-**Please see [Kibook's PMMS](https://github.com/kibook/pmms) for installation instructions and troubleshooting**
-
-
-
-# Static Emitters 🎶
-
-I have disabled the static emitters at the Arena Wars location, however if you are using PMMS alongside my Cayo Perico resource, PMMS disables static emitters when media is being rendered, and reenables them when the media has stopped playing, therefore, it counteracts with this resource. 
-
-To 'fix' this, open the `staticEmitters.lua` file inside the PMMS resource, and set the following to false like so;
-
-```
-{name = "SE_DLC_AW_Arena_Crowd_Background_Main", enabled = false},
-{name = "SE_DLC_AW_xs_arena_VIP_Radio", enabled = false},
-{name = "SE_DLC_AW_xs_x18_int_mod_garage_radio", enabled = false},
-{name = "SE_DLC_AW_xs_x18_int_mod2_garage_radio", enabled = false},
-```
-
-# CONTENTS 🏝️
+# CONTENTS: 🏝️
 
 - Spawns Cayo Perico alongside Los Santos!
 
@@ -98,8 +81,35 @@ To 'fix' this, open the `staticEmitters.lua` file inside the PMMS resource, and 
 
 - NPC Peds -- can be removed or commented out in `peds_config.lua`
 
+# Configuring PMMS 
 
-# BUGS 🐛
+**Please see [Kibook's PMMS](https://github.com/kibook/pmms) for installation instructions and troubleshooting**
+
+# Installation ⚙️: 
+
+* Download repository and put the `CayoTwoIslands` folder in your server files
+
+* Add `h4_islandairstrip_12` from the `Original Hangar Collison` folder, and insert it into `CayoTwoIslands` > `stream` > `ybn` folder. If you are using the Cayo Perico Shops resource, ignore this step
+
+* add `start CayoTwoIslands` to your server.cfg
+
+* Restart server or type `/start CayoTwoIslands` into the chat window 
+
+
+# Static Emitters: 🎶
+
+Static emitters at the Arena Wars location have been disabled. However, if you are using PMMS alongside this Cayo Perico resource, PMMS disables static emitters when media is being rendered and reenables them when the media has stopped playing. Therefore, it counteracts with this resource. 
+
+To 'fix' this, open the `staticEmitters.lua` file inside the PMMS resource, and set the following to false like so;
+
+```
+{name = "SE_DLC_AW_Arena_Crowd_Background_Main", enabled = false},
+{name = "SE_DLC_AW_xs_arena_VIP_Radio", enabled = false},
+{name = "SE_DLC_AW_xs_x18_int_mod_garage_radio", enabled = false},
+{name = "SE_DLC_AW_xs_x18_int_mod2_garage_radio", enabled = false},
+```
+
+# Common Conflicts/"Bugs": 🐛
 
 - some IPL Loader scripts have the following code:
 
@@ -108,7 +118,7 @@ LoadMpDlcMaps()
 EnableMpDlcMaps(true)
 ```
 
-This conflicts with Cayo Perico and the hangar, as my resources are already requesting the required IPLs, maps, and entitysets. 
+This conflicts with Cayo Perico and the hangar, as this resource is already requesting the required IPLs, maps, and entitysets. 
 
 Set it to false and request your IPLs the correct way.
 
@@ -131,19 +141,8 @@ I don't use any fancy frameworks or any other Cayo Perico related resources, so 
 ---------------------------------------
 
 
-# Installation ⚙️: 
 
-* Download repository and put the `CayoTwoIslands` folder in your server files
-
-* Add `h4_islandairstrip_12` from the `Original Hangar Collison` folder, and insert it into `CayoTwoIslands` > `stream` > `ybn` folder. If you are using the Cayo Perico Shops resource, ignore this step
-
-* add `start CayoTwoIslands` to your server.cfg
-
-* Restart server or type `/start CayoTwoIslands` into the chat window 
-
-
-
-# FAQ 💬
+# FAQ: 💬
 
 **Q: How can I change what's inside the cabinet in the basement?**
 
@@ -169,7 +168,7 @@ Read about it [here](https://forum.cfx.re/t/cfx-re-client-update-fivem-redm-for-
 
 **Q: Can you move the island to...**
 
-**A: NO.**
+**A: While it is possible to move the map, we will not provide help in doing so. If you'd like to make that an option, PRs are always open for new features/updates.**
 
 ------------------
 
@@ -178,7 +177,7 @@ Read about it [here](https://forum.cfx.re/t/cfx-re-client-update-fivem-redm-for-
 **A: We do not provide any support/compatibility for other resources and map files.**
 
 
-# Screenshots 📸
+# Screenshots: 📸
 
 
 
@@ -194,5 +193,6 @@ Read about it [here](https://forum.cfx.re/t/cfx-re-client-update-fivem-redm-for-
 | <img src="Screenshots/twoislands3.jpg" width="250"> | <img src="Screenshots/cayo6.jpg" width="250"> | <img src="Screenshots/starfish.jpg" width="250"> |
 
 
----------------------------------------
+# Credits:
 
+- This resource was originally created by [Tay NcKenzie](https://github.com/TayMcKenzieNZ)
