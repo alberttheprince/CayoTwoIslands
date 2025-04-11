@@ -1,10 +1,8 @@
 # CayoTwoIslands 🏝️
 
-Designed for RP and exploration in mind, CayoTwoIslands does everything [Cayo Improvements](https://github.com/TayMcKenzieNZ/CayoImprovements) does, except one important and highly requested feature; no more concealment.
+Designed for RP and exploration in mind, CayoTwoIslands does everything [Cayo Improvements](https://github.com/TayMcKenzieNZ/CayoImprovements) does, except one important and highly requested feature; no more concealment!
 
 CayoTwoIslands enhances the island by removing obstructing collisions and adding more vegetation, street lights, heist props, and socializing opportunities.
-
-**This resource is for FiveM usage with the understanding that you will not modify, sell or reupload elsewhere without my permission.**
 
 It is to work alongside [[pmms](https://github.com/kibook/pmms)] for playing content on the TV screens, as well as [[fivem-scenarios](https://github.com/kibook/fivem-scenarios)] for interacting with scenarios around the world, (like seats and scenarios) including Cayo Perico.
 
